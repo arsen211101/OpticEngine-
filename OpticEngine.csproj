@@ -1,0 +1,90 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <UserSecretsId>aspnet-OpticEngine-5D28F2E2-C043-4840-88CE-00ECE088F3ED</UserSecretsId>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="obj\**" />
+    <Content Remove="obj\**" />
+    <EmbeddedResource Remove="obj\**" />
+    <None Remove="obj\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="wwwroot\plugins\bootstrap-tagsinput\bootstrap-tagsinput.js" />
+    <None Include="wwwroot\plugins\bootstrap-tagsinput\bootstrap-tagsinput.min.js" />
+    <None Include="wwwroot\plugins\morris\morris.js" />
+    <None Include="wwwroot\plugins\morris\morris.min.js" />
+    <None Include="wwwroot\plugins\raphael\raphael.min.js" />
+    <None Include="wwwroot\plugins\sticky-kit-master\dist\sticky-kit.js" />
+    <None Include="wwwroot\plugins\sticky-kit-master\dist\sticky-kit.min.js" />
+    <None Include="wwwroot\plugins\summernote\dist\lang\summernote-ar-AR.js" />
+    <None Include="wwwroot\plugins\summernote\dist\lang\summernote-bg-BG.js" />
+    <None Include="wwwroot\plugins\summernote\dist\lang\summernote-ca-ES.js" />
+    <None Include="wwwroot\plugins\summernote\dist\lang\summernote-cs-CZ.js" />
+    <None Include="wwwroot\plugins\summernote\dist\lang\summernote-da-DK.js" />
+    <None Include="wwwroot\plugins\summernote\dist\lang\summernote-de-DE.js" />
+    <None Include="wwwroot\plugins\summernote\dist\lang\summernote-el-GR.js" />
+    <None Include="wwwroot\plugins\summernote\dist\lang\summernote-es-ES.js" />
+    <None Include="wwwroot\plugins\summernote\dist\lang\summernote-es-EU.js" />
+    <None Include="wwwroot\plugins\summernote\dist\lang\summernote-fa-IR.js" />
+    <None Include="wwwroot\plugins\summernote\dist\lang\summernote-fi-FI.js" />
+    <None Include="wwwroot\plugins\summernote\dist\lang\summernote-fr-FR.js" />
+    <None Include="wwwroot\plugins\summernote\dist\lang\summernote-gl-ES.js" />
+    <None Include="wwwroot\plugins\summernote\dist\lang\summernote-he-IL.js" />
+    <None Include="wwwroot\plugins\summernote\dist\lang\summernote-hr-HR.js" />
+    <None Include="wwwroot\plugins\summernote\dist\lang\summernote-hu-HU.js" />
+    <None Include="wwwroot\plugins\summernote\dist\lang\summernote-id-ID.js" />
+    <None Include="wwwroot\plugins\summernote\dist\lang\summernote-it-IT.js" />
+    <None Include="wwwroot\plugins\summernote\dist\lang\summernote-ja-JP.js" />
+    <None Include="wwwroot\plugins\summernote\dist\lang\summernote-ko-KR.js" />
+    <None Include="wwwroot\plugins\summernote\dist\lang\summernote-lt-LT.js" />
+    <None Include="wwwroot\plugins\summernote\dist\lang\summernote-lt-LV.js" />
+    <None Include="wwwroot\plugins\summernote\dist\lang\summernote-mn-MN.js" />
+    <None Include="wwwroot\plugins\summernote\dist\lang\summernote-nb-NO.js" />
+    <None Include="wwwroot\plugins\summernote\dist\lang\summernote-nl-NL.js" />
+    <None Include="wwwroot\plugins\summernote\dist\lang\summernote-pl-PL.js" />
+    <None Include="wwwroot\plugins\summernote\dist\lang\summernote-pt-BR.js" />
+    <None Include="wwwroot\plugins\summernote\dist\lang\summernote-pt-PT.js" />
+    <None Include="wwwroot\plugins\summernote\dist\lang\summernote-ro-RO.js" />
+    <None Include="wwwroot\plugins\summernote\dist\lang\summernote-ru-RU.js" />
+    <None Include="wwwroot\plugins\summernote\dist\lang\summernote-sk-SK.js" />
+    <None Include="wwwroot\plugins\summernote\dist\lang\summernote-sl-SI.js" />
+    <None Include="wwwroot\plugins\summernote\dist\lang\summernote-sr-RS-Latin.js" />
+    <None Include="wwwroot\plugins\summernote\dist\lang\summernote-sr-RS.js" />
+    <None Include="wwwroot\plugins\summernote\dist\lang\summernote-sv-SE.js" />
+    <None Include="wwwroot\plugins\summernote\dist\lang\summernote-ta-IN.js" />
+    <None Include="wwwroot\plugins\summernote\dist\lang\summernote-th-TH.js" />
+    <None Include="wwwroot\plugins\summernote\dist\lang\summernote-tr-TR.js" />
+    <None Include="wwwroot\plugins\summernote\dist\lang\summernote-uk-UA.js" />
+    <None Include="wwwroot\plugins\summernote\dist\lang\summernote-uz-UZ.js" />
+    <None Include="wwwroot\plugins\summernote\dist\lang\summernote-vi-VN.js" />
+    <None Include="wwwroot\plugins\summernote\dist\lang\summernote-zh-CN.js" />
+    <None Include="wwwroot\plugins\summernote\dist\lang\summernote-zh-TW.js" />
+    <None Include="wwwroot\plugins\summernote\dist\plugin\databasic\summernote-ext-databasic.js" />
+    <None Include="wwwroot\plugins\summernote\dist\plugin\hello\summernote-ext-hello.js" />
+    <None Include="wwwroot\plugins\summernote\dist\plugin\specialchars\summernote-ext-specialchars.js" />
+    <None Include="wwwroot\plugins\summernote\dist\summernote-bs4.js" />
+    <None Include="wwwroot\plugins\summernote\dist\summernote-bs4.min.js" />
+    <None Include="wwwroot\plugins\summernote\dist\summernote-lite.js" />
+    <None Include="wwwroot\plugins\summernote\dist\summernote-lite.min.js" />
+    <None Include="wwwroot\plugins\summernote\dist\summernote.js" />
+    <None Include="wwwroot\plugins\summernote\dist\summernote.min.js" />
+  </ItemGroup>
+
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="9.0.0" />
+    <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="7.0.0" />
+    <PackageReference Include="Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore" Version="3.1.2" />
+    <PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="3.1.2" />
+    <PackageReference Include="Microsoft.AspNetCore.Identity.UI" Version="3.1.2" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="3.1.2" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="3.1.2" />
+    <PackageReference Include="Microsoft.jQuery.Unobtrusive.Validation" Version="3.2.11" />
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="3.1.1" />
+  </ItemGroup>
+
+</Project>
